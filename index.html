@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diki</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+	<div class="login">
+		<div class="left">
+
+		</div>
+		<div class="right">
+			<h1>Login</h1>
+			<p>Selamat datang pada My Galery!</p>
+			<input type="text" class="username" placeholder="username">
+			<input type="password" class="password" placeholder="password">
+			<div class="tombol">
+				<button class="login-btn">Login</button>
+			<button class="signup">Daftar</button>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+<script>
+	const btnLogin = document.querySelector('.login-btn')
+	const btnDaftar = document.querySelector('.signup')
+	
+	btnLogin.addEventListener('click', ()=>{
+		location.href = "content.html"
+	})
+	btnDaftar.addEventListener('click', ()=>{
+		location.href = 'pendaftaran.html'
+	})
+	
+</script>
+</html>

@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form Pendaftaran</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+	<div class="form-signup">
+		<h1>Form Pendaftaran Akun</h1>
+		<p>isi data diri kamu pada form di bawah ini!</p>
+		<input type="text" placeholder="Masukan Nama Lengkap kamu">
+		<input type="text" placeholder="Masukan Email">
+		<input type="date">
+		<input type="text" placeholder="Masukan Username">
+		<input type="password" placeholder="Password">
+		<button class="password">Kirim form</button>
+	</div>
+	
+</body>
+<script>
+	const btn = document.querySelector('.password')
+	btn.addEventListener('click', ()=>{
+		alert('pendaftaran berhasil')
+		location.href = "content.html"
+	})
+</script>
+</html>

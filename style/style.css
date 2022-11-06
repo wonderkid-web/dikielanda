@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	position: relative;
+	background: #272053;
+	display: grid;
+	place-items: center;
+	color: white;
+	font-family: sans-serif;
+}
+
+
+.login{
+	background: white;
+	width: 50%;
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid 3px;
+}
+
+.left{
+	width: 100%;
+	background-image: url('https://docplayer.info/docs-images/117/227194657/images/1-0.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.right{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	gap: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #272053;
+}
+
+.right > input{
+	padding: 10px;
+	border: none;
+}
+
+.tombol{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+.right .tombol > button{
+	border:  none;
+	width: 35%;
+	align-self: center;
+	padding: 10px;
+	cursor: pointer;
+	background: #2b1b8e;
+	color: white;
+}
+
+.right .username{
+	margin-top: 5px;
+}
+
+/*Pendaftaran*/
+.form-signup > ::placeholder{
+	color: white;
+}
+.form-signup{
+	color: #2b1b8e;
+	background: white;
+	padding: 35px;
+	box-sizing: border-box;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	gap:  20px;
+	border-radius: 15px;
+}
+.form-signup h1{
+	color: #2b1b8e;
+}
+.form-signup > input {
+	color: white;
+	border: none;
+	background: #2b1b8e;
+	border-radius: 5px;
+	padding: 10px;
+}
+.form-signup > button{
+	background: #2b1b8e;
+	border: none;
+	color: white;
+	width: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+/*Konten*/
+.konten-header{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box;
+	border: solid;
+	border-left: none;
+	border-right: none;
+}
+
+.konten-header ul{
+	width: 15vw;
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+
+}
+
+.konten-header ul > *{
+	padding: 15px;
+	cursor: pointer;
+}
+
+.konten-header .logo-left{
+	width: 50px;
+
+}
+
+.konten-main{
+	position: absolute;
+	top: 100px;
+	background: white;
+	color: #2b1b8e;
+	width: 60vw;
+	box-sizing: border-box;
+	padding: 15px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.aboutme > ul{
+	margin-top: 15px;
+	list-style: none;
+	margin-left: 15px;
+}
+
+.aboutme ul li{
+	margin-bottom: 5px;
+}
+.jurusan p{
+	margin-top: 15px;
+	margin-left: 15px;
+	text-align: justify;
+	line-height: 25px;
+}
+.jurusan ul{
+	list-style: none;
+	margin-top: 15px;
+	margin-left: 15px;
+	text-align: justify;
+	line-height: 25px;
+}
